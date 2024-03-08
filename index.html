@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas RevoU</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar-Start -->
+    <nav class="nav-container">
+      <a class="img-container" href="#">
+        <img src="./img/logo.png" alt="logo" class="img-size" />
+      </a>
+
+      <a id="burger" class="nav-burger">
+        <img src="./img/nav-burger.png" alt="nav-burger" />
+      </a>
+
+      <div id="sidebar-open" class="nav-link-container">
+        <div>
+          <a href="#">Home</a>
+          <a href="#our-profile">Our Profile</a>
+          <a href="#portfolio">Portfolio</a>
+          <a class="middle" href="#message-us">Message Us</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar-End -->
+
+    <!-- Home-start -->
+    <section id="home" class="home">
+      <div class="home-container">
+        <h1>
+          Hi <span>'<span id="home-name">user</span>'</span> welcome to my
+          website!
+        </h1>
+        <p>ini adalah website latihan pertama</p>
+        <div class="carousel-container">
+          <img
+            class="img-item"
+            src="./img/kfc-campaign-1.jpg"
+            alt="kfc-campaign-1"
+          />
+          <img
+            class="img-item bot"
+            src="./img/kfc-campaign-2.jpg"
+            alt="kfc-campaign-2"
+          />
+          <img
+            class="img-item top"
+            src="./img/kfc-campaign-3.jpg"
+            alt="kfc-campaign-3"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Home-end -->
+
+    <!-- Our Profile-start -->
+    <section id="our-profile" class="our-profile">
+      <div class="our-profile-container">
+        <h1>Our Profile</h1>
+        <img class="img-our-profile-container" src="./img/kfc.png" />
+        <p>
+          "Experience the World's Favorite Chicken at KFC! Founded by Colonel
+          Harland Sanders in 1952, KFC's secret blend of 11 herbs and spices
+          creates our iconic fried chicken loved globally. With thousands of
+          locations in over 145 countries, we're serving up more than just
+          chicken – our menu features sandwiches, wraps, salads, and sides like
+          mashed potatoes and coleslaw. Proudly part of the Yum! Brands family,
+          our innovative menu items and marketing campaigns make us a cultural
+          icon, shaping both the fast-food industry and popular culture. Join us
+          in our commitment to making a difference through philanthropy,
+          partnering with organizations like the World Food Programme to fight
+          hunger worldwide. Come taste the tradition, the flavor, the legacy –
+          only at KFC!"
+        </p>
+      </div>
+    </section>
+    <!-- Our Profile-end -->
+
+    <!-- Vision-Mission-start -->
+    <section class="vision-mission">
+      <div class="vision-mission-container">
+        <h1>Vision & Mission</h1>
+        <div class="content-container">
+          <div class="img-container">
+            <img src="./img/side-kfc1.png" alt="bucket" />
+          </div>
+          <div class="text-container">
+            <div class="vision-container">
+              <h1>Vision</h1>
+              <p>
+                "To be the leading integrated food services group in the Asia
+                Pacific region, delivering consistent quality products and
+                excellent customer-focused service."
+              </p>
+            </div>
+            <div class="mission-container">
+              <h1>Mission</h1>
+              <p>
+                "To maximize profitability, improve shareholder value, and
+                deliver sustainable growth year after year, while providing
+                customers with high-quality products and services at competitive
+                prices."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Vision-Mission-end -->
+
+    <!-- Portfolio-start -->
+    <section id="portfolio" class="portfolio">
+      <div class="portfolio-container">
+        <h1>Our Headquarter</h1>
+        <div class="headquarter-container">
+          <div class="headquarter-item">
+            <div class="headquarter-item-container">
+              <img src="./img/kfc-kentucky.jpg" alt="kfc-kentucky" />
+            </div>
+            <p>KFC Kentucky</p>
+          </div>
+          <div class="headquarter-item">
+            <div class="headquarter-item-container">
+              <img
+                class="bangkok"
+                src="./img/kfc-bangkok.jpg"
+                alt="kfc-bangkok"
+              />
+            </div>
+            <p>KFC Kentucky</p>
+          </div>
+          <div class="headquarter-item">
+            <div class="headquarter-item-container">
+              <img class="japan" src="./img/kfc-japan.jpg" alt="kfc-japan" />
+            </div>
+            <p>KFC Kentucky</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio-end -->
+
+    <!-- Message-Us-start -->
+    <section id="message-us" class="message-us">
+      <div class="message-us-container">
+        <div class="table-container">
+          <h1>Message Us</h1>
+          <table>
+            <form name="message-us-form">
+              <tr>
+                <td>
+                  <label for="nama_input">Nama <span>:</span></label>
+                </td>
+                <td>
+                  <input
+                    required
+                    type="text"
+                    name="nama_input"
+                    placeholder="Nama"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="tgl_lahir_input"
+                    >Tanggal lahir <span>:</span></label
+                  >
+                </td>
+                <td>
+                  <input type="date" name="tgl_lahir_input" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="jenis-kelamin"
+                    >Jenis Kelamin <span>:</span></label
+                  >
+                </td>
+                <td>
+                  <input
+                    class="laki_laki_input"
+                    type="radio"
+                    name="jenis_kelamin_input"
+                    value="Laki-laki"
+                  />
+                  <label class="laki_laki_input" for="laki-laki"
+                    >Laki-laki</label
+                  >
+                  <input
+                    class="perempuan_input"
+                    type="radio"
+                    name="jenis_kelamin_input"
+                    value="Perempuan"
+                  />
+                  <label class="perempuan_input" for="perempuan"
+                    >Perempuan</label
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="pesan">Pesan <span>:</span></label>
+                </td>
+                <td>
+                  <input
+                    class="pesan"
+                    type="text"
+                    name="pesan_input"
+                    placeholder="Pesan"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" class="submit">
+                  <button id="submit-button" type="button" value="submit">
+                    Submit
+                  </button>
+                </td>
+              </tr>
+            </form>
+          </table>
+        </div>
+        <div class="result-container">
+          <div class="result-content-container">
+            <p>Current time : <span id="date_user"></span></p>
+            <br />
+            <p>Nama : <span id="nama_user"></span></p>
+            <p>Tanggal Lahir : <span id="tgl_lahir_user"></span></p>
+            <p>Jenis Kelamin : <span id="jenis_kelamin_user"></span></p>
+            <p>Pesan : <span id="pesan-user"></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer-start -->
+      <footer class="footer">
+        <h1>Created by Ravell Immanuel</h1>
+      </footer>
+      <!-- Footer-end -->
+    </section>
+    <!-- Message-Us-end -->
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
